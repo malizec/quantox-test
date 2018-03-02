@@ -1,4 +1,4 @@
-# PHP Developer Test for [![Quantox]](http://quantox.com)
+# PHP Developer Test for [Quantox](http://quantox.com)
 
 ## Introduction
 The test is divided into two parts:
