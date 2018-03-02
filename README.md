@@ -2,6 +2,6 @@
 
 ## Introduction
 The test is divided into two parts:
-Problem 1: Create Person class
-problem 2: Create logic for two robots on same line
-
+--------------
+* Problem 1: Create Person class
+* Problem 2: Create logic for two robots on same line
