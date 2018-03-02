@@ -3,7 +3,12 @@
 namespace App;
 
 /**
-* Create new person
+* Create basic stuff for new person like
+* @param string     $gender         male or female
+* @param string     $fname          add new Person First Name
+* @param string     $lname          add new Person Last Name
+* @param integer    $age            add new Person age
+* @param string     $nationality    add new Person nationality
 */
 class Person
 {
@@ -14,6 +19,9 @@ class Person
     protected $age;
     protected $nationality;
 
+    /*
+    * Build new Person object
+     */
     public function __construct($gender, $fname, $lname, $age, $nationality)
     {
         $this->gender = $gender;
@@ -32,7 +40,7 @@ class Person
     }
 
     /**
-    * return Full Info about new PersonS
+    * return Full Info about new Person
     */
     public function getFullInfo()
     {

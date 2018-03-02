@@ -5,7 +5,7 @@ namespace App;
 use App\Person;
 
 /**
-* Man class
+* Extend Person class and create Woman object
 */
 class Woman extends Person
 {
@@ -16,7 +16,7 @@ class Woman extends Person
     }
 
     /**
-    * getMessage
+    * Create new message only for Woman 
     */
     public function getMessage()
     {
