@@ -22,7 +22,7 @@ class Person
     /*
     * Build new Person object
      */
-    public function __construct($gender, $fname, $lname, $age, $nationality)
+    public function __construct($gender=null, $fname=null, $lname=null, $age=null, $nationality=null)
     {
         $this->gender = $gender;
         $this->fname = $fname;
@@ -30,6 +30,39 @@ class Person
         $this->age = $age;
         $this->nationality = $nationality;
     }
+
+    /**
+    * Change or Insert new First Name
+    */
+    public function setFirstName($fname)
+    {
+        $this->fname = $fname;
+    }
+
+    /**
+    * Change or Insert new Last Name
+    */
+    public function setLastName($lname)
+    {
+        $this->lname = $lname;
+    }
+
+    /**
+    * Change or Insert new Name
+    */
+    public function setAge($age)
+    {
+        $this->age = $age;
+    }
+
+    /**
+    * Change or Insert new Name
+    */
+    public function setNationality($nationality)
+    {
+        $this->nationality = $nationality;
+    }
+
 
     /**
     * return Short Info about new Person
@@ -45,5 +78,37 @@ class Person
     public function getFullInfo()
     {
         return $this->getInfo() . '<br/> Age: ' . $this->age . '<br/> Nationality: ' . $this->nationality;
+    }
+
+    /**
+    * Return First Name
+    */
+    public function getFirstName()
+    {
+        return $this->fname;   
+    }
+
+    /**
+    * Return Last Name
+    */
+    public function getLastName()
+    {
+        return $this->lname;   
+    }
+
+    /**
+    * Return age
+    */
+    public function getAge()
+    {
+        return $this->age;   
+    }
+
+    /**
+    * Return Nationality
+    */
+    public function getNationality()
+    {
+        return $this->nationality;   
     }
 }

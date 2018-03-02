@@ -16,12 +16,19 @@ class PersonFactory
     */
     public static function createPerson($gender, $fname, $lname, $age, $nationality)
     {
-        if ($gender == 'male') {
-            return new Man($gender, $fname, $lname, $age, $nationality);
-        } elseif($gender == 'female') {
-            return new Woman($gender, $fname, $lname, $age, $nationality);
-        } else {
-            return null;
+        switch ($gender) {
+            case 'male':
+                return new Man($gender, $fname, $lname, $age, $nationality);
+                break;
+            
+            case 'female':
+                return new Woman($gender, $fname, $lname, $age, $nationality);
+                break;
+            // You can add more and more cases
+            default:
+                return null;
+                break;
         }
+
     }
 }

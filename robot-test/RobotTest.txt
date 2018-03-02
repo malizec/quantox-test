@@ -1,0 +1,6 @@
+loop:
+L
+L
+S
+R
+G loop
