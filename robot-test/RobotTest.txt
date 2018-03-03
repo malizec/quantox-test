@@ -10,6 +10,7 @@ fast:
     R
     G:fast
 
+/***********************************************************************************************************/
 #Problem
 
 Problem je u tome da se ne moze podesiti da roboti idu jedan ka drugom istim programom bez unapred
@@ -24,3 +25,4 @@ samim tim nailazenjem na mrlju preskocice zadnju naredbu i prebacice se na izvrs
 bloka kojim se zadaje naredba da ide samo desno na svaku sekundu (R R)dok drugi robot ide desno na
 svake 3 sekunde(R L R). Izvrsavanjem naredbe robot sa leve strane mora u nekom trenutku u buducnosti 
 da se sudari sa robotom sa desne strane.
+/***********************************************************************************************************/
