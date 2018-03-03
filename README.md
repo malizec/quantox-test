@@ -3,5 +3,5 @@
 ## Introduction
 The test is divided into two parts:
 --------------
-* Problem 1: Create Person class
-* Problem 2: Create logic for two robots on same line
+* Problem 1: Create [Person](https://github.com/malizec/quantox-test/tree/master/person-test) class
+* Problem 2: Create logic for two [Robots](https://github.com/malizec/quantox-test/tree/master/robot-test) on same line
