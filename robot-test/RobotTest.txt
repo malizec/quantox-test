@@ -11,9 +11,13 @@ fast:
     G:fast
 
 #Problem
-Problem je u tome da se ne moze podesiti da roboti idu jedan ka drugom istim programom. 
 
-#Resenje
+Problem je u tome da se ne moze podesiti da roboti idu jedan ka drugom istim programom bez unapred
+definisane pozicije robota na beskonacnoj liniji tj da se zna koji robot je na kojoj strani beskonacne linije
+
+
+#Moguce resenje * da robot sustigne drugog robota na beskonacnoj liniji
+
 Zato se pristupa sledecem resenju, da roboti u pocetku krenu po jedno polje polje na desno. 
 U nekom trenutku robot koji je sa leve strane mora da naidje na mrlju od ulja drugog robota,
 samim tim nailazenjem na mrlju preskocice zadnju naredbu i prebacice se na izvrsenje narednog 
